@@ -1,0 +1,3 @@
+assossiation_homepage:
+    path:     /
+    defaults: { _controller: AssossiationBundle:Default:index }

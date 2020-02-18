@@ -1,0 +1,28 @@
+{% extends 'base2.html.twig' %}
+
+{% block content %}
+    <h1>Ajout d'Assossiation</h1>
+<br>
+    <div align="centre">
+    {{ form_start(form) }}
+
+        {{ form_widget(form) }}
+        <input type="submit" value="Ajout"/>
+        {{ form_end(form) }}
+
+
+<section id="main-content"   >
+    <section class="wrapper">
+
+        <ul>
+        <li>
+            <a href="{{ path('assossiation_index') }}">Affichage De Listes</a>
+        </li>
+    </ul>
+
+    </section>
+</section>
+    </div>
+{% endblock %}
+
+
